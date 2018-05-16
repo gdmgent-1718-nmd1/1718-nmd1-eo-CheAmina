@@ -10,9 +10,22 @@ body {
     line-height: 1.5em;
     padding: 25px;
 }
-  .flex-container{display: flex;
-flex-direction: column;
-  }
+.flex-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container-concurrentie > div {
+  background-color: rgb(27, 33, 39);
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  line-height: 24px; 
+}
+table, th, td {
+  border: 1px solid black;
+}
 
 .userscenario img {
     float: left;
@@ -23,3 +36,7 @@ flex-direction: column;
 }
 
 /* Voeg jouw css hieraan toe */
+
+.concurrentie .flex-container {
+  
+}
